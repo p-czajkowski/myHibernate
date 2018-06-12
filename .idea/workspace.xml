@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78cc62bd-7365-4337-a39f-a600603db1a3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/myHibernate/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myHibernate/model/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,12 +34,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/myHibernate/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="401">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding>
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
                 <element signature="e#413#414#0" expanded="true" />
                 <element signature="e#463#464#0" expanded="true" />
@@ -52,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HbnConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HbnConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/myHibernate/HbnConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,10 +94,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/myHibernate/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/myHibernate/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/myHibernate/model/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/myHibernate/HbnConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myHibernate/model/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myHibernate/model/AbstractEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myHibernate/model/User.java" />
       </list>
     </option>
   </component>
@@ -259,7 +264,7 @@
       <option name="presentableId" value="Default" />
       <updated>1528791186847</updated>
       <workItem from="1528791190897" duration="219000" />
-      <workItem from="1528791554024" duration="1888000" />
+      <workItem from="1528791554024" duration="2833000" />
     </task>
     <task id="LOCAL-00001" summary="hibernate.cfg.xml first configuration">
       <created>1528792442070</created>
@@ -268,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528792442070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HbnConfig.class created">
+      <created>1528794656169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528794656169</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2107000" />
+    <option name="totallyTimeSpent" value="3052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -342,7 +354,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hibernate.cfg.xml first configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="hibernate.cfg.xml first configuration" />
+    <MESSAGE value="HbnConfig.class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="HbnConfig.class created" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -373,21 +386,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myHibernate/model/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/myHibernate/HbnConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myHibernate/model/AbstractEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myHibernate/model/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myHibernate/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="401">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
           <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
             <element signature="e#381#382#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
@@ -396,16 +431,6 @@
             <element signature="e#571#572#0" expanded="true" />
             <element signature="e#619#620#0" expanded="true" />
             <element signature="e#659#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myHibernate/HbnConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
